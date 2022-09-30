@@ -2,6 +2,23 @@
 <html>
 <body>
 
+   var keys = {};
+window.addEventListener("keydown",
+    function(e){
+        keys[e.code] = true;
+        switch(e.code){
+            case "ArrowUp": case "ArrowDown": case "ArrowLeft": case "ArrowRight":
+            case "Space": e.preventDefault(); break;
+            default: break; // do not block other keys
+        }
+    },
+false);
+window.addEventListener('keyup',
+    function(e){
+        keys[e.code] = false;
+    },
+false);
+   
 <!DOCTYPE html>
 <html>
    <head>
@@ -9,10 +26,6 @@
    </head>
    <body style="background-color:#201A23;">
  <p style="font-family:Montserrat;font-size:25px;"><FONT COLOR=#FFF6CC>Joseph's Website</p> 
-
-      <p style="font-family:verdana">This was made in css and html!.</p>
-   </body>
-</html>
 
 ">I hope you like it!</h1>
 
