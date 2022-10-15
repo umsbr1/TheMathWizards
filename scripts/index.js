@@ -69,7 +69,7 @@ function makeloader(){
 
 document.body.addEventListener("keydown", function (event) {
     if (event.key === "=") {
-        window.location.replace("https://drive.google.com/");
+        window.location.replace("ictwolves.schoology.com");
     }
 });
 
