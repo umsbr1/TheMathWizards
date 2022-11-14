@@ -8,10 +8,10 @@
 }
 
 :root {
-    --background: #1a1a1a;
-    --sidebarcolor1: rgb(45, 45, 45);
+    --background: #072803;
+    --sidebarcolor1: rgb(7, 36, 58);
     --sidebarcolor2: #fff;
-    --textcolor: #fff;
+    --textcolor: rgb(112, 0, 0);
 }
 
 /* Generic CSS */
@@ -163,9 +163,9 @@ body {
 }
 
 .home_content .typing {
-    width: 25ch;
+    width: 17ch;
     white-space: nowrap;
-    font-size: 2em;
+    font-size: 5em;
     font-family: 'Poppins';
     color: var(--textcolor);
 }
@@ -242,7 +242,7 @@ body {
 }
 
 .background_content h3 {
-    margin-top: 40px;
+    margin-top: 40;
     font-size: 40px;
     color: var(--textcolor);
     margin-right: 20px;
