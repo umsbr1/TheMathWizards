@@ -8,10 +8,10 @@
 }
 
 :root {
-    --background: #072803;
-    --sidebarcolor1: rgb(7, 36, 58);
+    --background: #190024;
+    --sidebarcolor1: rgb(13, 22, 29);
     --sidebarcolor2: #fff;
-    --textcolor: rgb(112, 0, 0);
+    --textcolor: rgb(235, 235, 235);
 }
 
 /* Generic CSS */
