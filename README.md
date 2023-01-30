@@ -1,2 +1,3 @@
-# TheMathWizards
-I made this site for my unblocked games and TRY to add games most of the time.
+RIP MATHWIZARDS / UNBLOCKED CO
+
+SEP 29 23 > JAN 30 23
